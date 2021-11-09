@@ -46,7 +46,7 @@ class DownloadThread(threading.Thread):
 # initialize the window, frame and the progressbar
 root = Tk()
 frame = Frame(root, width=700, height=400, bg=FRAME_COLOR).place(x=CHILDREN_X - 15,
-                                                                 y=CHILDREN_Y - 50)  # frame is a diva
+                                                                 y=CHILDREN_Y - 50)
 progress = Progressbar()
 
 # initialize the strings needed
